@@ -5,6 +5,9 @@ import { IconContext } from 'react-icons/lib';
 const NavBar = () => {
     
     const [click, setClick] = useState(false)
+    const [scroll, setScroll] = useState(false)
+
+    
 
     return(
         <div>
