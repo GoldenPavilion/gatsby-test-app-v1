@@ -16,3 +16,12 @@ export const Nav = styled.nav`
         transition: 0.8s all ease;
     }
 `
+
+export const NavbarContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%
+    max-width: 1000px;
+`
