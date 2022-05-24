@@ -7,7 +7,13 @@ const NavBar = () => {
     const [click, setClick] = useState(false)
     const [scroll, setScroll] = useState(false)
 
-    
+    const changeNav = () => {
+        if (window.scrollY >= 80) {
+            setScroll(true)
+        } else {
+            setScroll(false)
+        }
+    }
 
     return(
         <div>
