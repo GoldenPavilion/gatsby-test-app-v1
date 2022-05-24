@@ -15,6 +15,11 @@ const NavBar = () => {
         }
     }
 
+    useEffect(() => {
+        changeNav()
+        window.addEventListener("scroll", changeNav)
+    }, [])
+
     return(
         <div>
             <IconContext.Provider value={{ color: "#141414"}}>
