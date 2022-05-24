@@ -2,12 +2,11 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-
-const IndexPage = () => (
+const Images = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Home</h1>
+    <Seo title="Page two" />
+    <h1>Images</h1>
   </Layout>
 )
 
-export default IndexPage
+export default Images
