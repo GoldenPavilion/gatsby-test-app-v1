@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {DiScala} from "react-icons/Di";
 
 export const Nav = styled.nav`
     background: ${({ active }) => active ? "#fff" : "linear-gradient(to bottom, rgba(255, 255, 255,0.9) 0%, rgba(255, 255, 255, 0) 100%)"};
