@@ -25,3 +25,13 @@ export const NavbarContainer = styled.div`
     width: 100%
     max-width: 1000px;
 `
+
+export const NavLogo = styled(Link)`
+    color: #141414;
+    justify-self: flex-start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+`
