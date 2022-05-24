@@ -4,6 +4,8 @@ import { IconContext } from 'react-icons/lib';
 
 const NavBar = () => {
     
+    const [click, setClick] = useState(false)
+
     return(
         <div>
             <IconContext.Provider value={{ color: "#141414"}}>
