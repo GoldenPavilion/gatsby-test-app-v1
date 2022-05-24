@@ -35,3 +35,7 @@ export const NavLogo = styled(Link)`
     display: flex;
     align-items: center;
 `
+
+export const NavIcon = styled(DiScala)`
+    margin: 0 0.5rem 0 2rem;
+`
